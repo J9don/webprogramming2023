@@ -1,4 +1,4 @@
 # webprogramming2023
 웹프로그래밍 수업용
 
-웹프로그래밍 중간고사 발표 영상 유튜브 주소 : ?.?.?.?.?
+웹프로그래밍 중간고사 발표 영상 유튜브 주소 : https://www.youtube.com/watch?v=nkwDtUPBDyU
