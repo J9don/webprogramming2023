@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>레시피</title>
+<link rel="stylesheet" href = "main.css">
+<script>
+  function searchRecipe() {
+    var searchInput = document.getElementById('search-input').value;
+    console.log('검색어:', searchInput);
+  }
+</script>
+</head>
+<body>
+<header>
+<h1>자취생을 위한 음식 레시피</h1>
+</header>
+<nav>
+<ul>
+  <li><a href="home.html">홈</a></li>
+  <li><a href="recipe.html">레시피</a></li>
+</ul>
+</nav>
+<section>
+<h2>레시피</h2>
+<div class="search-container">
+<input type="text" id="search-input" placeholder="레시피 검색...">
+<button type="button" onclick="searchRecipe()">검색</button>
+</div>
+<ul class="recipe-list">
+  <li><a href="qkq.html">밥 요리</li>
+  <li><a href="aus.html">면 요리</li>
+  <li><a href="rnr.html">국, 찌개</li>
+  <li><a href="rndl.html">구이 요리</li>
+  <li><a href="elwjxm.html">디저트</li>
+</ul>
+</section>
+<footer>
+<p>자취생을 위한 음식 레시피. 20202530 정규돈</p>
+</footer>
+</body>
+</html>

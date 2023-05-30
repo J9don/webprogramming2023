@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>자취생을 위한 음식 레시피</title>
+<link rel="stylesheet" href = "main.css">
+<script>
+  function searchRecipe() {
+    var searchInput = document.getElementById('search-input').value;
+    console.log('검색어:', searchInput);
+  }
+</script>
+</head>
+<body>
+<header>
+<h1>자취생을 위한 음식 레시피</h1>
+</header>
+<nav>
+<ul>
+  <li><a href="home.html">홈</a></li>
+  <li><a href="recipe.html">레시피</a></li>
+</ul>
+</nav>
+<section>
+<h2>자취생을 위한 음식 레시피 안내</h2>
+<p>간단하고 맛있는 자취생 식단을 위한 레시피를 제공합니다.</p>
+<div class="search-container">
+<input type="text" id="search-input" placeholder="레시피 검색...">
+<button type="button" onclick="searchRecipe()">검색</button>
+</div>
+</section>  
+<footer>
+<p>자취생을 위한 음식 레시피. 20202530 정규돈</p>
+</footer>
+</body>
+</html>
